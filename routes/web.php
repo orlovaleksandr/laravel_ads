@@ -14,6 +14,10 @@
 
 Route::get('/', 'HomeController@index')->name('home');
 
+Route::get('/1231', function (){
+
+});
+
 Auth::routes();
 
 Route::get('/cabinet', 'Cabinet\HomeController@index')->name('cabinet');
