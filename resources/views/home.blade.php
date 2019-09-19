@@ -16,6 +16,7 @@
 
                         Your site
                     </div>
+                    <div>{{$text}}</div>
                 </div>
             </div>
         </div>
