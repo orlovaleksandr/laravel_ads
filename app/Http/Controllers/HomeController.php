@@ -15,7 +15,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $faker = Faker::create();
-        return view('home', ["text" => $faker->name]);
+        return view('home');
     }
 }
